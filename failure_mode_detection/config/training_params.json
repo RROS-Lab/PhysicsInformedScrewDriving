@@ -1,0 +1,21 @@
+{
+    "learning_rate":0.001,
+    "batch_size":15,
+    "epochs":30,
+    "weight_decay":0.00001,
+    "device": "cuda",
+    "training_dir": "train",
+    "dev_dir":"dev",
+    "test_dir":"test",
+    "log_freq":1,
+    "wrench_dim":20,
+    "image_dim":30,
+    "gru_dim":300,
+    "num_classes":2,
+    "gru_dropout":0.5,
+    "time_horizon":40,
+    "preload_model_path":"training.model",
+    "load_checkpoint": false,
+    "wandb":false,
+    "gru_layers":4
+} 
