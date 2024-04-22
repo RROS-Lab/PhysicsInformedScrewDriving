@@ -1,0 +1,20 @@
+{
+    "learning_rate":0.001,
+    "batch_size":1,
+    "epochs":200,
+    "weight_decay":0.0000001,
+    "device": "cuda",
+    "training_dir": "train",
+    "dev_dir":"dev",
+    "test_dir":"test",
+    "log_freq":10,
+    "stiffness_dim":6,
+    "damping_dim":6,
+    "time_horizon":270,
+    "state_space_dim":2,
+    "wrench_dim":6,
+    "orientation_dim":3,
+    "preload_model_path":"training.model",
+    "load_checkpoint": false,
+    "wandb":false
+} 

@@ -1,0 +1,27 @@
+{
+    "learning_rate":0.001,
+    "batch_size":3,
+    "epochs":100,
+    "weight_decay":0.001,
+    "device": "cuda",
+    "training_dir": "train",
+    "dev_dir":"dev",
+    "test_dir":"test",
+    "log_freq":10,
+    "wrench_dim":3,
+    "orientation_dim":3,
+    "image_dim":10,
+    "include_sine":true,
+    "model_order":1,
+    "poly_order":3,
+    "time_horizon":70,
+    "state_space_dim":2,
+    "preload_model_path":"training.model",
+    "load_checkpoint": false,
+    "wandb":false,
+    "sequential_thresholding_freq":0,
+    "sequential_thresholding_param":0.00001,
+    "sindy_loss_weight":200,
+    "stiffness_damping_dim":12
+
+} 
