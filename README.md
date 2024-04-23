@@ -83,3 +83,6 @@ The trained model checkpoints will be generated in the models directory inside t
   doi={10.1109/IROS55552.2023.10342151}}
 
 ```
+
+## Contact
+In case of any questions reach out to Omey Manyar [manyar\@usc.edu](mailto:manyar@usc.edu?subject=IROS2023)
