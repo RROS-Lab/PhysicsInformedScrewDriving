@@ -25,11 +25,13 @@ pip install -e .
 ## Dataset and configs
 >The example dataset can be downloaded from the following link
 ```download dataset
-wget https://drive.google.com/drive/folders/1vd4qKbVVS16ymHH4h3RC8x2uIXhlQYtr?usp=sharing -O dataset.zip
+gdown -id 1vd4qKbVVS16ymHH4h3RC8x2uIXhlQYtr
 ````
 This will have two datasets. One for screw dynamics model training and another one for failure_mode_detection.
+If the above command doesn't work due to file size issue, kindly use the following google drive link:
+[https://drive.google.com/drive/folders/1vd4qKbVVS16ymHH4h3RC8x2uIXhlQYtr](https://drive.google.com/drive/folders/1vd4qKbVVS16ymHH4h3RC8x2uIXhlQYtr?usp=sharing)
 
-<span style="color:red">!!</span> Once the datasets are downloaded, make sure to store them in "dataset" folders in screw-model and failure_mode_detection folders. failure_mode_detection dataset is further segregated in train, dev and test.
+<span style="color:red">!!</span> Once the datasets are downloaded, make sure to store them in "dataset" folders in screw-model and failure_mode_detection folders. Both the datasets are further segregated into train, dev and test.
 
 We have also provided config files consisting of the necessary hyperparameters for training the three models in the "config" folder inside each of the model subdirectory.
 
