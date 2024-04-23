@@ -394,7 +394,11 @@ FodyWeavers.xsd
 
 ##Adding Image Files
 *.jpg
-*.png 
 *.avi
 *.mp4
 *.csv
+
+##Model Files
+*.pt
+**/screw-model/models/
+**/failure_mode_detection/models/
